@@ -4,9 +4,9 @@ import Stomp from 'stompjs';
 let stompClient = null;
 
 export const connectWebSocket = (token, onMessageReceived) => {
-    // const socket = new SockJS('http://localhost:8080/teenPattiGame/join-game'); // Replace with your WebSocket endpoint
+    const socket = new SockJS('http://localhost:8080/teenPattiGame/join-game'); // Replace with your WebSocket endpoint
 
-    const socket1 = new SockJS('http://18.213.28.138:8080/teenPattiGame/join-game'); // Replace with your WebSocket endpoint
+    // const socket1 = new SockJS('http://18.213.28.138:8080/teenPattiGame/join-game'); // Replace with your WebSocket endpoint
 
 
     console.log("Hello, World!");

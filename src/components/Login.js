@@ -143,7 +143,7 @@ const Login = ({ onOtpVerified }) => {
     const [otpSent, setOtpSent] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const API_URL = 'http://18.213.28.138:8080/teenPattiGame/api/v1/user/register';
+    const API_URL = 'http://localhost:8080/teenPattiGame/api/v1/user/register';
 
     const validatePhoneNumber = (phoneNumber) => /^[0-9]{10}$/.test(phoneNumber);
 
